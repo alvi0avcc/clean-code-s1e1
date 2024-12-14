@@ -10,13 +10,12 @@ body {
     display: block;
     text-align: right;
 }
-.header img {
+.header-image {
     width: 100%;
 }
-.header .more-info {
+.more-info {
     font-family: fantasy, cursive;
 }
-
 .main {
     display: block;
     width: 500px;
@@ -34,7 +33,7 @@ ul {
     margin:0;
     padding: 0px;
 }
-li, h3 {
+li {
     list-style:none;
 }
 input,button{
@@ -53,8 +52,7 @@ button:hover {
     color: #3a3A3a;
 }
 /* Heading */
-h3,
-label[for='new-task'] {
+h3 {
     color: #333;
     font-weight: 700;
     font-size: 15px;
