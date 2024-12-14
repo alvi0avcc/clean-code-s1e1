@@ -10,19 +10,19 @@
   <link rel="stylesheet" href="styles/style.css" type="text/css" MEDIA="screen" charset="utf-8"> <!-- TODO: need correction -->
 </head>
 <body>
-  <header class="aaa">
+  <header class="header">
     <img src="assets/eisenhower-matrix-image.jpg" alt="Eisenhower matrix image">
-    <a class="more_inf" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <a class="more-info" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
-  <main class="centered-main-page-element">
-    <section id="topSectionForAddingElementToList">
+  <main class="main">
+    <section class="section-add-task" id="topSectionForAddingElementToList">
       <h3 for="new-task">Add Item</h3>
       <div class="task-row-wrapper">
         <input id="new-task" class="task" type="text">
         <button>Add</button>
       </div>
     </section>
-    <section>
+    <section class="section-incomplete-task">
       <h3>Todo</h3>
       <ul id="incompleteTasks">
         <li>
@@ -43,7 +43,7 @@
         </li>
       </ul>
     </section>
-    <section>
+    <section class="section-complited-task">
       <h3>Completed</h3>
       <ul id="completed-tasks">
         <li>
