@@ -84,7 +84,7 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-h3[for='new-task'] {
+.section-add-task h3 {
     display: block;
     margin: 0 0 20px;
 }
