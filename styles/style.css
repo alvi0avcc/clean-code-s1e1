@@ -10,6 +10,7 @@ body {
   background-color: var(--body-background-color);
   color: var(--main-color);
   font-family: var(--main-font);
+  font-size: 18px;
 }
 .header {
   width: 500px;
@@ -79,11 +80,8 @@ h3 {
   justify-content: space-between;
   align-items: center;
 }
-.list > label {
-  padding-left: 10px;
-  box-sizing: border-box;
-  font-size: 18px;
-  width: 226px;
+.checkbox{
+  margin-right: 10px;
 }
 .button-delete img {
   height: 2em;
