@@ -68,7 +68,7 @@ input[type="text"]:focus {
   display: flex;
   margin: 20px 0 0;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 
@@ -81,20 +81,20 @@ input#new-task {
   justify-content: space-between;
   align-items: center;
 }
-.list>* {
+.list > * {
   vertical-align: middle;
 }
 
-.list>input[type="checkbox"] {
+.list > input[type="checkbox"] {
   margin: 0 10px;
 }
-.list>label {
+.list > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.list>input[type="text"] {
+.list > input[type="text"] {
     width: 226px;
 }
 .button-delete img {
