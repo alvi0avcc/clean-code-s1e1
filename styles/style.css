@@ -12,7 +12,6 @@ body {
 .header {
   width: 500px;
   margin: 0 auto;
-  display: block;
   text-align: right;
 }
 .header-image {
@@ -22,7 +21,6 @@ body {
   font-family: fantasy, cursive;
 }
 .main {
-  display: block;
   width: 500px;
   margin: 0 auto 0;
 }
@@ -73,27 +71,17 @@ h3 {
 }
 /* Task list */
 .list {
-  overflow: hidden;
-  padding: 20px 0;
+  padding: 20px 0 20px 10px;
   border-bottom: 1px solid #eee;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.list > * {
-  vertical-align: middle;
-}
-.list > .checkbox {
-  margin: 0 10px;
 }
 .list > label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
-}
-.list > .input-text {
-    width: 226px;
 }
 .button-delete img {
   height: 2em;
@@ -114,7 +102,6 @@ h3 {
 }
 .task-edit-mode .input-text {
   display: inline-block;
-  width: 224px;
 }
 .task-edit-mode label {
   display: none;
