@@ -1,0 +1,108 @@
+:root{
+  --body-background-color: #f8f8f8;
+  --main-color: #333;
+  --secondary-color: #888;
+  --button-hover-color: #3a3a3a;
+  --main-font: "Lato", sans-serif;
+  --fantasy-font: fantasy, cursive;
+}
+.body {
+  background-color: var(--body-background-color);
+  color: var(--main-color);
+  font-family: var(--main-font);
+  font-size: 18px;
+}
+.header {
+  width: 500px;
+  margin: 0 auto;
+  text-align: right;
+}
+.header-image {
+  width: 100%;
+}
+.more-info {
+  font-family: var(--fantasy-font);
+}
+.main {
+  width: 500px;
+  margin: 0 auto 0;
+}
+.task {
+  display: inline-block;
+  flex-grow: 1;
+}
+.button {
+  background: none;
+  border: 0px;
+  color: var(--button-color);
+  font-size: 15px;
+  width: 60px;
+  font-family: var(--main-font);
+  cursor: pointer;
+}
+.button:hover {
+  color: var(--button-hover-color);
+}
+.section-title {
+  color: var(--main-color);
+  font-weight: 700;
+  font-size: 15px;
+  border-bottom: 2px solid var(--main-color);
+  padding: 30px 0 10px;
+  margin: 0;
+  text-transform: uppercase;
+}
+.input-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 18px;
+  height: 21px;
+  padding: 0 9px;
+  border: 1px solid #ddd;
+  background: #fff;
+  border-radius: 6px;
+  font-family: var(--main-font);
+  color: var(--secondary-color);
+}
+.input-text:focus {
+  color: var(--main-color);
+}
+/* New Task */
+.block-new-task {
+  display: flex;
+  margin: 20px 0 0;
+}
+/* Task list */
+.list {
+  padding: 20px 0 20px 10px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.checkbox{
+  margin-right: 10px;
+}
+.delete-image {
+  height: 2em;
+  transform: rotate(45deg);
+  transition: transform 200ms ease-in;
+}
+.delete-image:hover {
+  transform: rotate(0);
+}
+/* Completed */
+.complete-tasks label {
+  text-decoration: line-through;
+  color: var(--secondary-color);
+}
+/* Edit Task */
+.list .input-text {
+  display: none;
+}
+.task-edit-mode .input-text {
+  display: inline-block;
+}
+.task-edit-mode label {
+  display: none;
+}

@@ -1,0 +1,9 @@
+ul {
+  margin: 0;
+  padding: 0px;
+  list-style: none;
+}
+input,
+button {
+  outline: none;
+}
