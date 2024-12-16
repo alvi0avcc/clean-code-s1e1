@@ -6,7 +6,7 @@
   --main-font: "Lato", sans-serif;
   --fantasy-font: fantasy, cursive;
 }
-body {
+.body {
   background-color: var(--body-background-color);
   color: var(--main-color);
   font-family: var(--main-font);
@@ -31,7 +31,7 @@ body {
   display: inline-block;
   flex-grow: 1;
 }
-button {
+.button {
   background: none;
   border: 0px;
   color: var(--button-color);
@@ -40,10 +40,10 @@ button {
   font-family: var(--main-font);
   cursor: pointer;
 }
-button:hover {
+.button:hover {
   color: var(--button-hover-color);
 }
-h3 {
+.section-title {
   color: var(--main-color);
   font-weight: 700;
   font-size: 15px;
